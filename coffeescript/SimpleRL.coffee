@@ -33,5 +33,4 @@ movePlayer = ( newX, newY ) ->
 
 document.addEventListener 'keyup', handleKeyup, false
 
-# Fake a keypress to render the map immediately
-handleKeyup keyCode:RIGHT
+movePlayer x, y
